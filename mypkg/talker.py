@@ -5,7 +5,7 @@ from std_msgs.msg import Int16
 
 rclpy.init()
 node = Node("talker")
-pub = node.create_publisher(Person, "countup", 10)
+pub = node.create_publisher(Int16, "countup", 10)
 n = 0
 def cb():
     global n
