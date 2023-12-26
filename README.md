@@ -54,11 +54,21 @@
   ```
 * 実行結果
  ```
-  [INFO] [launch]: All log files can be found below /home/daisuke/.ros/log/2023-12-26-12-24-28-526552-LAPTOP-STA8A1L5-26563
+[INFO] [launch]: All log files can be found below /home/daisuke/.ros/log/2023-12-26-12-31-41-030731-LAPTOP-STA8A1L5-26629
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [26565]
-[INFO] [listener-2]: process started with pid [26567]
-[listener-2] [INFO] [1703561069.328825155] [listener]: Listen: 0[listener-2] [INFO] [1703561069.814912785] [listener]: Listen: 1[listener-2] [INFO] [1703561070.315272276] [listener]: Listen: 2[listener-2] [INFO] [1703561070.814967720] [listener]: Listen: 3[listener-2] [INFO] [1703561071.315344695] [listener]: Listen: 4[listener-2] [INFO] [1703561071.815272453] [listener]: Listen: 5[listener-2] [INFO] [1703561072.315118613] [listener]: Listen: 6[listener-2] [INFO] [1703561072.814715119] [listener]: Listen: 7[listener-2] [INFO] [1703561073.315303824] [listener]: Listen: 8[listener-2] [INFO] [1703561073.813644751] [listener]: Listen: 9[listener-2] [INFO] [1703561074.315413097] [listener]: Listen: 10
+[INFO] [talker-1]: process started with pid [26631]
+[INFO] [listener-2]: process started with pid [26633]
+[listener-2] [INFO] [1703561501.817035533] [listener]: Listen: 0
+[listener-2] [INFO] [1703561502.309299793] [listener]: Listen: 1
+[listener-2] [INFO] [1703561502.808054410] [listener]: Listen: 2
+[listener-2] [INFO] [1703561503.309610758] [listener]: Listen: 3
+[listener-2] [INFO] [1703561503.808927261] [listener]: Listen: 4
+[listener-2] [INFO] [1703561504.308859136] [listener]: Listen: 5
+[listener-2] [INFO] [1703561504.809080681] [listener]: Listen: 6
+[listener-2] [INFO] [1703561505.308904479] [listener]: Listen: 7
+[listener-2] [INFO] [1703561505.809291654] [listener]: Listen: 8
+[listener-2] [INFO] [1703561506.308698577] [listener]: Listen: 9
+[listener-2] [INFO] [1703561506.809484381] [listener]: Listen: 10
   ```
 ## 必要なソフトウェア
 * Python
