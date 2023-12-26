@@ -1,5 +1,5 @@
 # mypkg
-* ROS2関係のノードをまとめたリポジトリ
+* ROS 2関係のノードをまとめたリポジトリ
 
 [![test](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml)
 
