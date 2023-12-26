@@ -21,7 +21,7 @@
   ```
 * 何も出力されない
 ### listenerを動かす
-　``   
+  ```
   $ ros2 run mypkg listener
   ```
 
