@@ -10,8 +10,8 @@
 
 # listener
 
-* 実行までの手順
-# インストール
+# 実行までの手順
+* インストール
   ```
   $ git clone https://github.com/Daisuke-joho/mypkg.git
   ```
