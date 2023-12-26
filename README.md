@@ -1,7 +1,7 @@
 # mypkg
 * ROS2関係のノードをまとめたリポジトリ
 
-[![test](https://github.com/Daisuke-joho/ros2_ws/src/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/ros2_ws/src/mypkg/actions/workflows/test.yml)
+[![test](https://github.com/Daisuke-joho/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/robosys2023/actions/workflows/test.yml)
 
 # トピック
 * ノードのデータを連結する流路のこと
