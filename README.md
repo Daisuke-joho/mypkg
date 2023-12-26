@@ -21,8 +21,30 @@
   ```
 * 何も出力されない
 ### listenerを動かす
+* talkerとは別の端末で行う
   ```
   $ ros2 run mypkg listener
+  ```
+* 実行結果
+
+ ```
+[INFO] [1703560288.398308876] [listener]: Listen: 7
+[INFO] [1703560288.889001055] [listener]: Listen: 8
+[INFO] [1703560289.389719868] [listener]: Listen: 9
+[INFO] [1703560289.889399952] [listener]: Listen: 10
+[INFO] [1703560290.390007552] [listener]: Listen: 11
+[INFO] [1703560290.890068284] [listener]: Listen: 12
+[INFO] [1703560291.388953017] [listener]: Listen: 13
+[INFO] [1703560291.890267991] [listener]: Listen: 14
+[INFO] [1703560292.390324538] [listener]: Listen: 15
+[INFO] [1703560292.889139874] [listener]: Listen: 16
+[INFO] [1703560293.390363416] [listener]: Listen: 17
+[INFO] [1703560293.890191701] [listener]: Listen: 18
+[INFO] [1703560294.390514872] [listener]: Listen: 19
+[INFO] [1703560294.889643834] [listener]: Listen: 20
+[INFO] [1703560295.390466142] [listener]: Listen: 21
+[INFO] [1703560295.890198152] [listener]: Listen: 22
+[INFO] [1703560296.390416623] [listener]: Listen: 23
   ```
 
 ## 必要なソフトウェア
