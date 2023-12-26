@@ -3,15 +3,15 @@
 
 [![test](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml)
 
-# トピック
+## トピック
 * ノードのデータを連結する流路のこと
 　　
-# talker
+## talker
 
-# listener
+## listener
 
-# 実行までの手順
-* インストール
+## 実行までの手順
+### インストール
   ```
   $ git clone https://github.com/Daisuke-joho/mypkg.git
   ```
