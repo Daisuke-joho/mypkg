@@ -5,17 +5,25 @@
 
 ## トピック
 * ノードのデータを連結する流路のこと
-　　
-## talker
-
-## listener
-
+## 各ノードの説明　
+### talker
+* 16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る
+### listener
+* talkerからトピックを通して受け取ったデータを出力する
 ## 実行までの手順
 ### インストール
   ```
   $ git clone https://github.com/Daisuke-joho/mypkg.git
   ```
-
+### talkerを動かす
+  ```
+  $ ros2 run mypkg talker
+  ```
+* 何も出力されない
+### listenerを動かす
+　```   
+  $ ros2 run mypkg listener
+  ```
 
 ## 必要なソフトウェア
 * Python
