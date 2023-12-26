@@ -3,11 +3,10 @@
 
 [![test](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml)
 
-## トピック
-* ノードのデータを連結する流路のこと
 ## 各ノードの説明　
 ### talker
-* 16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る
+* 16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る.
+トピックはノードのデータを連結する流路としての役割をしている.
 ### listener
 * talkerからトピックを通して受け取ったデータを出力する
 ### talk_listen.launch.py
