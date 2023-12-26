@@ -12,6 +12,7 @@
 ### talk_listen.launch.py
 * talkerとlistenerを同時に実行する
 ## 実行までの手順
+* ROS2をインストールしていない場合、インストールを行った後に以下の手順で実行する
 ### インストール
   ```
   $ git clone https://github.com/Daisuke-joho/mypkg.git
