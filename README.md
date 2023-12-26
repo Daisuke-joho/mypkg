@@ -10,6 +10,8 @@
 * 16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る
 ### listener
 * talkerからトピックを通して受け取ったデータを出力する
+### talk_listen.launch.py
+* talkerとlistenerを同時に実行する
 ## 実行までの手順
 ### インストール
   ```
@@ -46,7 +48,18 @@
 [INFO] [1703560295.890198152] [listener]: Listen: 22
 [INFO] [1703560296.390416623] [listener]: Listen: 23
   ```
-
+## talk_listen.launch.pyを使って実行する方法
+ ```
+  $ ros2 launch mypkg talk_listen.launch.py
+  ```
+* 実行結果
+ ```
+  [INFO] [launch]: All log files can be found below /home/daisuke/.ros/log/2023-12-26-12-24-28-526552-LAPTOP-STA8A1L5-26563
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [talker-1]: process started with pid [26565]
+[INFO] [listener-2]: process started with pid [26567]
+[listener-2] [INFO] [1703561069.328825155] [listener]: Listen: 0[listener-2] [INFO] [1703561069.814912785] [listener]: Listen: 1[listener-2] [INFO] [1703561070.315272276] [listener]: Listen: 2[listener-2] [INFO] [1703561070.814967720] [listener]: Listen: 3[listener-2] [INFO] [1703561071.315344695] [listener]: Listen: 4[listener-2] [INFO] [1703561071.815272453] [listener]: Listen: 5[listener-2] [INFO] [1703561072.315118613] [listener]: Listen: 6[listener-2] [INFO] [1703561072.814715119] [listener]: Listen: 7[listener-2] [INFO] [1703561073.315303824] [listener]: Listen: 8[listener-2] [INFO] [1703561073.813644751] [listener]: Listen: 9[listener-2] [INFO] [1703561074.315413097] [listener]: Listen: 10
+  ```
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7~3.10
