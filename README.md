@@ -5,25 +5,24 @@
 
 # トピック
 * ノードのデータを連結する流路のこと
+　　
 # talker
 
 # listener
 
-# 使い方
-* ダウンロード
-* インストール
+* 実行までの手順
+# インストール
   ```
-  $ git clone https://github.com/Daisuke-joho/robosys2023.git
-  $ cd robosys2023
-  $ seq 10 | ./plus
+  $ git clone https://github.com/Daisuke-joho/mypkg.git
   ```
+
 
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7~3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu 20.04
 
 ## ライセンスと著作権
 * このソフトウェアパッケージは,３条項BSDライセンスの下,再頒布および使用が許可されます.
