@@ -1,5 +1,5 @@
 # mypkg
-* ROS 2関係のノードをまとめたリポジトリ
+* ROS 2のパッケージのリポジトリ
 
 [![test](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Daisuke-joho/mypkg/actions/workflows/test.yml)
 
@@ -7,12 +7,11 @@
 ### talker
 * パブリッシャを持つノードであり16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る.
 ### listener
-* パブリッシャを持つノードからトピックを通して受け取ったデータを出力する.
+* サブスクライバを持つノードであり,/countupトピックを通して受け取ったデータを出力する.
 ### talk_listen.launch.py
 * talkerとlistenerを同時に実行する.
 ### トピックについて
-* パブリッシャも持つノードのデータを，サブスクライバを持つノードとつなぐ役割をしている.
-このパッケージの中ではトピックに/countupと名前を付けて，メッセージの型を16ビットの符号付き整数としている.
+* このパッケージの中ではトピックに/countupと名前を付けて，メッセージの型を16ビットの符号付き整数としている.
 ## 実行までの手順
 ### talkerを動かす
   ```
