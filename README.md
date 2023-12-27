@@ -5,19 +5,15 @@
 
 ## 各ノードの説明　
 ### talker
-* 16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る.
+* パブリッシャを持つノードであり16ビットの符号付き整数をカウントして/countupと名前の付いたトピックでデータを送る.
 ### listener
-* パブリッシャからトピックを通して受け取ったデータを出力する
+* パブリッシャを持つノードからトピックを通して受け取ったデータを出力する.
 ### talk_listen.launch.py
-* talkerとlistenerを同時に実行する
+* talkerとlistenerを同時に実行する.
 ### トピックについて
-* パブリッシャであるtalkerからのデータをサブスクライバであるlistenerとつなぐ役割をしている.
+* パブリッシャも持つノードのデータを，サブスクライバを持つノードとつなぐ役割をしている.
 このパッケージの中ではトピックに/countupと名前を付けて，メッセージの型を16ビットの符号付き整数としている.
 ## 実行までの手順
-### インストール
-  ```
-  $ git clone https://github.com/Daisuke-joho/mypkg.git
-  ```
 ### talkerを動かす
   ```
   $ ros2 run mypkg talker
@@ -29,7 +25,6 @@
   $ ros2 run mypkg listener
   ```
 * 実行結果
-
  ```
 [INFO] [1703560288.398308876] [listener]: Listen: 7
 [INFO] [1703560288.889001055] [listener]: Listen: 8
@@ -77,11 +72,10 @@
 
 ## テスト環境
 * Ubuntu 20.04
+* ROS 2 Foxy
 
 ## ライセンスと著作権
 * このソフトウェアパッケージは,３条項BSDライセンスの下,再頒布および使用が許可されます.
-
-* このパッケージは,Ryuichi Uedaのコード（© 2023 Ryuichi Ueda）を基に作られています.
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
   * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 Daisuke Shioda
